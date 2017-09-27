@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         //初始化socket连接
         initSocket();
         //初始化完成之后需要开始socket连接
-        socketConnect("120.27.8.120", 2346);
+        socketConnect("120.xx.x.120", 2346);
 
         //发送消息 将要发送的消息保存成一个bean类 然后再将bean类转换成json字符串发送给服务器
         sendMeesage(socketBean);
